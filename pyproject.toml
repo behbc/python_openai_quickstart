@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-openai-quickstart"
+version = "0.1.0"
+description = ""
+authors = ["behbc <bruno.behbc@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_openai_quickstart"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
