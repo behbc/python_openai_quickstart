@@ -44,9 +44,13 @@ Linux, macOS, Windows (WSL):
 
 **2. Add to path**
 
-On Mac: 
+On Mac (unix): 
 
 ```export PATH="$HOME/.local/bin:$PATH"```
+
+On Windows:
+
+```export PATH="%APPDATA%\Python\Scripts:$PATH"```
 
 **3. Set virtual enviroments to project directory**
 
@@ -94,5 +98,13 @@ as an environment variable:
 
 To run a file with poetry in your virtualenv run:
  
-```poetry python run path/file.py```
+```poetry run python path/file.py```
 
+**openai_wrapper.py**
+
+```poetry run python python_openai_quickstart/openai_wrapper.py```
+
+
+**main.py**
+
+```poetry run python python_openai_quickstart/main.py```
